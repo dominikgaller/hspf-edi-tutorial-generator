@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<order>
+    <customer>DemoCustomer</customer>
+    <orderbody>
+        <position>
+            <order-no>22-11</order-no>
+            <number>1</number>
+            <price>22.11</price>
+        </position>
+    </orderbody>
+</order>

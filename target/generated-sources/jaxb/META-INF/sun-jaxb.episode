@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<jaxb:bindings version="2.1" xmlns:jaxb="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Diese Datei wurde mit der JavaTM Architecture for XML Binding(JAXB) Reference Implementation, v2.2.11 generiert 
+Siehe <a href="http://java.sun.com/xml/jaxb">http://java.sun.com/xml/jaxb</a> 
+Änderungen an dieser Datei gehen bei einer Neukompilierung des Quellschemas verloren. 
+Generiert: 2017.11.09 um 02:22:41 PM CET 
+
+  -->
+  <jaxb:bindings scd="x-schema::">
+    <jaxb:schemaBindings map="false">
+      <jaxb:package name="com.example.model"/>
+    </jaxb:schemaBindings>
+    <jaxb:bindings scd="order">
+      <jaxb:class ref="com.example.model.Order"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~Orderbody">
+      <jaxb:class ref="com.example.model.Orderbody"/>
+    </jaxb:bindings>
+    <jaxb:bindings scd="~Position">
+      <jaxb:class ref="com.example.model.Position"/>
+    </jaxb:bindings>
+  </jaxb:bindings>
+</jaxb:bindings>
+

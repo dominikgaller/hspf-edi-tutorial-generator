@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="order">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="customer" type="xs:string"/>
+                <xs:element name="orderbody" type="Orderbody"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    <xs:complexType name="Orderbody">
+        <xs:sequence>
+            <xs:element name="position" type="Position" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <xs:complexType name="Position">
+        <xs:sequence>
+            <xs:element name="order-no" type="xs:string"/>
+            <xs:element name="number" type="xs:positiveInteger"/>
+            <xs:element name="price" type="xs:double" />
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>

@@ -1,0 +1,5 @@
+com/example/model/Orderbody.class
+com/example/model/Position.class
+com/example/model/Order.class
+com/example/XmlOrderGenerator.class
+com/example/model/ObjectFactory.class
