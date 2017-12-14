@@ -4,6 +4,8 @@
         <xs:complexType>
             <xs:sequence>
                 <xs:element name="customer" type="xs:string"/>
+                <xs:element name="country" type="xs:string"/>
+                <xs:element name="region" type="xs:string"/>
                 <xs:element name="orderbody" type="Orderbody"/>
             </xs:sequence>
         </xs:complexType>

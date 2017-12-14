@@ -1,5 +1,7 @@
-com/example/model/Orderbody.class
 com/example/model/Position.class
 com/example/model/Order.class
+com/example/Region.class
+com/example/model/Orderbody.class
+com/example/Country.class
 com/example/XmlOrderGenerator.class
 com/example/model/ObjectFactory.class
